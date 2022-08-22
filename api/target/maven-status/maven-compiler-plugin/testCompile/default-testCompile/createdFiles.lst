@@ -1,0 +1,3 @@
+org/openmrs/module/nurses/NurseServiceTest.class
+org/openmrs/module/nurses/dao/NursesDaoTest.class
+org/openmrs/module/nurses/NursesServiceTest.class

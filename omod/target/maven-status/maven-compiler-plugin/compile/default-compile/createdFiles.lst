@@ -1,0 +1,9 @@
+org/openmrs/module/nurses/extension/html/AdminList.class
+org/openmrs/module/nurses/page/controller/EditNursePageController.class
+org/openmrs/module/nurses/fragment/controller/NurseFragmentController.class
+org/openmrs/module/nurses/page/controller/HomePageController.class
+org/openmrs/module/nurses/page/controller/ViewNursePageController.class
+org/openmrs/module/nurses/web/controller/NursesController.class
+org/openmrs/module/nurses/fragment/controller/UsersFragmentController.class
+org/openmrs/module/nurses/fragment/controller/UpdateNurseFragmentController.class
+org/openmrs/module/nurses/page/controller/DeleteNursePageController.class

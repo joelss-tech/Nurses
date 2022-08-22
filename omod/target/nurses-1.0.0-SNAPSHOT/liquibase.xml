@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9
+                  http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+ 
+    
+
+
+<changeSet id="oo1" author="sekiranda Joel">
+		<preConditions onFail="MARK_RAN">
+			<not><tableExists tableName="r_nurses"/></not>
+		</preConditions>
+		
+		<comment>
+			Creating the r_nurses table
+		</comment>
+		<createTable tableName="r_nurses">
+			<column name="id" type="int" autoIncrement="true">
+				<constraints primaryKey="true" nullable="false"/>
+			</column>
+
+			<column name="firstName" type="varchar(255)"/>
+			<column name="lastName" type="varchar(255)"/>
+			<column name="Email" type="varchar(255)"/>
+			<column name="Nin" type="varchar(255)"/>
+			<column defaultValueBoolean="false" name="voided" type="BOOLEAN">
+			     <constraints nullable="false"/>
+			</column>
+		</createTable>
+    </changeSet> 
+
+
+
+
+
+
+</databaseChangeLog>

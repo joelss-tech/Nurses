@@ -1,0 +1,14 @@
+[
+
+    {
+  "id": "${project.parent.groupId}.${project.parent.artifactId}.nurses",
+  "extensionPointId": "systemAdministration.apps",
+  "type":"link",
+  "label":"Register Nurse",
+  "url":"nurses/home.page",
+  "icon":"icon-user-md",
+  "order":1
+
+
+   }
+]

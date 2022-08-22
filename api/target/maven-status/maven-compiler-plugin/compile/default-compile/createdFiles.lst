@@ -1,0 +1,7 @@
+org/openmrs/module/nurses/Item.class
+org/openmrs/module/nurses/NursesConfig.class
+org/openmrs/module/nurses/api/NursesService.class
+org/openmrs/module/nurses/api/impl/NursesServiceImpl.class
+org/openmrs/module/nurses/NursesActivator.class
+org/openmrs/module/nurses/api/dao/NursesDao.class
+org/openmrs/module/nurses/model/Nurse.class
